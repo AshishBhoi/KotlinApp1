@@ -11,10 +11,17 @@ before_install:
 script:
    - chmod +x gradlew
    - ./gradlew build
-   - ls
    - cd app
    - cd build
    - cd outputs
-   - ls
    - cd apk
+   - cd release
    - ls
+deploy:
+  provider: releases
+  api_key:
+    secure: $API_TOKEN
+  file: app/build/outputs/apk/release/test.apk
+  skip_cleanup: true
+  on:
+    tags: true
