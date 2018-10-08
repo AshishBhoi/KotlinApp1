@@ -16,3 +16,5 @@ script:
    - cd build
    - cd outputs
    - ls
+   - cd apk
+   - ls
