@@ -10,4 +10,4 @@ before_install:
   - yes | sdkmanager "platforms;android-28"
 script:
    - chmod +x gradlew
-   - ./gradlew build connectedCheck
+   - ./gradlew build
