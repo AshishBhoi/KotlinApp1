@@ -17,11 +17,14 @@ script:
    - cd apk
    - cd release
    - ls
+   - cd ..
+   - cd debug
+   - ls
 deploy:
   provider: releases
   api_key:
     secure: $API_TOKEN
-  file: app/build/outputs/apk/release/test.apk
+  file: app/build/outputs/apk/release/app-release-unsigned.apk
   skip_cleanup: true
   on:
     tags: true
