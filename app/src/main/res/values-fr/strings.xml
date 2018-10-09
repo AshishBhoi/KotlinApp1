@@ -8,4 +8,5 @@
     <string name="recycler_view_demo">Recycler Voir la démo</string>
     <string name="enter_your_message">Entrez votre message</string>
 
+    <string name="button_was_clicked">Le bouton a été cliqué!</string>
 </resources>

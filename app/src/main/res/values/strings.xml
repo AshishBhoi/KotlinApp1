@@ -6,4 +6,6 @@
     <string name="share_to_other_app">Share To Other App</string>
     <string name="recycler_view_demo">Recycler View Demo</string>
     <string name="enter_your_message">Enter Your Message</string>
+
+    <string name="button_was_clicked">Button Was Clicked !</string>
 </resources>

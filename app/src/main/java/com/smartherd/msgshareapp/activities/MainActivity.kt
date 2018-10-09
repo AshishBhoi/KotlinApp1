@@ -1,7 +1,6 @@
 package com.smartherd.msgshareapp.activities
 
 import android.content.Intent
-import android.nfc.Tag
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -24,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         btnShowToast.setOnClickListener {
             // Code
             Log.i(TAG, "Button Was clocked !")
-            showToast("Button Was Clicked !", Toast.LENGTH_LONG)
+            showToast(resources.getString(R.string.button_was_clicked), Toast.LENGTH_LONG)
         }
 
         btnSendMsgToNextActivity.setOnClickListener {
