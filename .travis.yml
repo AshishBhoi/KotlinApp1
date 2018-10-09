@@ -1,5 +1,5 @@
 language: android
-sudo: required
+if: tag IS present
 android:
   components:
     - build-tools-28.0.2
